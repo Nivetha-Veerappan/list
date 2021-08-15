@@ -1,0 +1,35 @@
+//append
+quote = ["life is very short"]
+quote.append("Always be happy")
+print(quote)
+
+//clear
+groceries = ["millets", "toor dhall"]
+groceries.clear()
+print(groceries)
+
+//copy
+quote = ["Smile", "Shine"]
+x = quote.copy()
+print(x)
+
+//extend
+emotions =["Smile", "Cry", "Laugh"]
+life =["life"]
+emotions.extend(life)
+print(emotions)
+
+//index
+price =["200","890","540"]
+x=price.index(890)
+print(x)
+
+//pop
+numbers = [0,1,2,3,4,6,5]
+numbers.pop(5)
+print(numbers)
+
+//reverse
+quote = ["work", "hard"]
+quote.reverse()
+print(quote)
